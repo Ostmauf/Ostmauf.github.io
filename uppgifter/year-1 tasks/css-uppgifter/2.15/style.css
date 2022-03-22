@@ -1,0 +1,36 @@
+.parent, .white-box, .blue-box, .top-row, .middle-row, .bottom-row
+{
+
+height: 33.33vh;
+width: 100%;
+
+}
+
+.top-row, .middle-row, .bottom-row
+{
+    
+display: flex;
+
+}
+
+.parent
+{
+
+display: flex;
+flex-flow: column;
+
+}
+
+.white-box
+{
+
+background-color: white;
+
+}
+
+.blue-box
+{
+
+background-color: blue;
+
+}

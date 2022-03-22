@@ -1,0 +1,23 @@
+h1
+{
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+h3
+{
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+
+}
+
+p
+{
+    margin: 0px 0px 0px 0px;
+    background-color: lightgrey;
+}

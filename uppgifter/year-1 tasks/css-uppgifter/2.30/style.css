@@ -1,0 +1,104 @@
+.parent
+{
+
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: lightgray;
+
+}
+
+.content
+{
+
+width: 18rem;
+height: 25rem;
+background-color: white;
+
+}
+
+button
+{width: 4rem;}
+
+h1
+{font-family: 'Andika New Basic', sans-serif;}
+
+a, h1, h3, input, label
+{margin-left: 1rem;}
+
+label, a
+{font-family: 'Andika New Basic', sans-serif;}
+
+a
+{
+
+margin-top: 2rem;
+text-decoration: none;
+
+}
+
+input
+{width: 75%;}
+
+.create-account_Loggin
+{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+position: sticky;
+
+}
+
+.loggin-button
+{
+
+border: 0;
+padding: 0;
+height: 2rem;
+width: 4rem;
+background-color: blue;
+border-radius: 100px;
+color: white;
+outline: none;
+
+}
+
+.loggin-button:hover
+{
+
+background-color: lightblue;
+color: blue;   
+
+}
+
+.create-acc
+{
+
+padding: 1px;
+margin-top: 0;
+
+}
+
+.Loggin
+{
+
+width: 4rem;
+height: 1.1rem;
+border: 1px solid lightblue;
+padding: 0.3rem;
+
+}
+
+.footer-text
+{
+
+color: grey;
+font-size: small;
+
+}

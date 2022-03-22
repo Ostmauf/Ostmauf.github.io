@@ -1,0 +1,61 @@
+.container, .parent, .box1_holder, .box2-3_holder
+{
+
+height: 100vh;
+width: 100%;  
+
+}
+
+.container
+{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.parent
+{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.box1, .box2, .box3
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.box1
+{
+
+background-color: gray;
+height: 100vh;
+width: 100%;
+
+}
+
+.box2
+{
+
+background-color: darkgray;
+height: 50vh;
+width: 100%;
+flex-direction: row;
+
+}
+
+.box3
+{
+
+background-color: lightgray;
+height: 50vh;
+width: 100%;
+flex-direction: row;
+
+}

@@ -1,0 +1,66 @@
+.button
+
+{
+
+text-decoration: none;
+border: 1px solid black;
+color: black;
+padding: 5px;
+
+}
+
+.button:hover
+{
+
+background-color: black;
+color: white;
+
+}
+
+.--red:hover
+{
+
+background-color: red;
+color: white;
+
+}
+
+.--green:hover
+{
+
+background-color: green;
+color: white;
+
+}
+
+.--blue:hover
+{
+
+background-color: blue;
+color: white;
+
+}
+
+.--red
+{
+
+border: 1px solid red;
+color: red;
+
+}
+
+.--green
+{
+
+border: 1px solid green;
+color: green;
+
+}
+
+.--blue
+{
+
+border: 1px solid blue;
+color:  blue;
+    
+}

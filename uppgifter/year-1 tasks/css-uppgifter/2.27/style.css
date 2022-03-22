@@ -1,0 +1,100 @@
+.parent
+{
+
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.boxblue_and_boxorange
+{
+
+display: flex;
+flex-grow: 2;
+
+}
+
+.box
+{
+
+flex-grow: 1;
+
+}
+
+.box.blue, .box.orange
+{
+
+display: flex;
+flex-basis: auto;
+
+}
+
+.box.blue
+{
+
+background-color: blue;
+
+}
+
+.box.orange
+{
+
+background-color: orange;
+
+}
+
+.box.red
+{
+
+background-color: red;
+
+}
+
+@media screen and (max-width: 900px)
+{
+
+    .box.red
+    {
+    
+    flex-grow: 2;
+
+    }
+
+    .parent
+    {
+
+    flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 500px)
+{
+
+    .parent
+    {
+
+    flex-direction: column;
+
+    }
+
+    .boxblue_and_boxorange
+    {
+
+    flex-direction: column;
+
+    }
+
+    .box.red
+    {
+    
+    flex-grow: 1;
+
+    }
+
+}
+

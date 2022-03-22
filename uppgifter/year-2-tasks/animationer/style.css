@@ -1,0 +1,85 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box, #box2, #box3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes box1animation {
+    
+    0% {
+        width: 5rem;
+        height: 5rem;
+        
+    }
+
+    10% {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    20% {
+        height: 15rem;
+    }
+
+    30% {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    50% {
+        font-size: 20px;
+    }
+  }
+  
+  #box {
+    animation: box1animation 2s infinite;
+    background-color: blue;
+    font-size: 10px;
+  }
+
+@keyframes box2animation {
+    10% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+#box2 {
+    margin: 0px 100px 0px 100px;
+    background-color: red;
+    animation: box2animation 2s infinite;
+    font-size: 10px;
+}
+
+@keyframes box3animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        font-size: 5px;
+    }
+
+    20% {
+        transform: rotate(180deg);
+    }
+}
+
+#box3 {
+    background-color: green;
+    animation: box3animation 2s infinite;
+    font-size: 10px;
+}

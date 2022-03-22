@@ -1,0 +1,32 @@
+.site
+{
+
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+#disappear-when-button-pressed
+{
+
+width: 70vw;
+height: 10vh;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+h3
+{font-size: medium;}
+
+.button-place
+{
+
+margin-top: 100px;
+
+}

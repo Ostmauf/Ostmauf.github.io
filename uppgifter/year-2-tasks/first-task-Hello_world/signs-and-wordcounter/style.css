@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 100px;
+    color: red;
+    font-family: sans-serif;
+}

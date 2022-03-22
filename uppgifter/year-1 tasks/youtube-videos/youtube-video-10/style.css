@@ -1,0 +1,25 @@
+body {margin: 0;}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-areas: 
+    "box1 box2";
+}
+
+.box1 {
+    background-color: red;
+    grid-area: box1;
+}
+
+.box2 {
+    background-color: yellow;
+    grid-area: box2;
+}
+
+.box3 {
+    background-color: blue;
+    grid-area: box3;
+}

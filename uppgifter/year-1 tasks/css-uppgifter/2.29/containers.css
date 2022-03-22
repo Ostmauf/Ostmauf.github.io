@@ -1,0 +1,179 @@
+.parent
+{height: 100vh;}
+
+.header
+{
+    
+position: fixed;
+background-color: red;
+z-index: 1;
+
+}
+
+.nav 
+{
+    
+min-height: 80%;
+max-height: 80%;
+
+}
+
+.links 
+{
+    
+height: 50%;
+min-width: 35rem;
+justify-content: space-between;
+
+}
+
+.content
+{height: 1000rem;}
+
+.text
+{max-height: 40rem;}
+
+.content-text
+{width: 26rem;}
+
+.content-musk_pic
+{
+
+width: 20vw;
+order: 2;
+
+}
+
+.content-text, .content-musk_pic
+{height: 60vh;}
+
+.musk-pic
+{
+
+background-image: url(elon_musk.PNG);
+background-size: 300px;
+background-repeat: no-repeat;
+background-position:  center top;
+width: 300px;
+height: 300px;
+margin: 45px 0px 0px 0px;
+
+}
+
+.content-musk_car_pic
+{
+
+height: 40vh;
+width: 40vw;
+margin-top: 2rem;
+
+}
+
+
+.musk_car_pic
+{
+
+background-image: url(elon_car.PNG);
+background-position: center;
+background-size: 1000px;
+background-repeat: no-repeat;
+width: 800px;
+height: 400px;
+min-width: 400px;
+
+}
+
+.footer
+{
+
+height: 30vh;
+max-height: 20vh;
+font-family: sans-serif;
+margin-top: 1rem;
+
+}
+
+.footer-text
+{width: 50rem;}
+
+
+.parent, .header, .content, .footer, .nav, .links, .text, .content-text, .content-musk_pic, .content-musk_car_pic
+{display: flex;}
+
+.header, .nav, .content, .text, .content-musk_pic, .content-musk_car_pic, .footer
+{justify-content: center;}
+
+.header, .nav, .content, .text, .content-musk_pic, .content-musk_car_pic, .footer
+{align-items: center;}
+
+.parent, .content, .content-text
+{flex-direction: column;}
+
+.parent, .header, .content, .footer, .text
+{
+
+max-width: 100%;
+width: 100%;
+
+}
+
+@media only screen and (max-height: 830px)
+{
+    
+    .footer
+    {margin-top: 30px;}
+
+}
+
+@media only screen and (max-height: 760px)
+{
+    
+    .footer
+    {margin-top: 4.1rem;}
+
+    .text
+    {
+    
+    height: 25rem;
+    margin-bottom: 8rem;
+
+    }
+
+}
+
+@media only screen and (max-height: 600px)
+{
+
+    .content-text
+    {color: blue;}
+
+    .footer
+    {margin-top: 5rem;}
+
+}
+
+@media only screen and (max-width: 37rem)
+{
+
+    .links
+    {
+        
+    min-width: 25rem;
+        
+    }
+
+    .content-text
+    {
+    
+    max-width: 24rem;
+    max-height: 400rem;
+
+    }
+
+    .text
+    {max-height: 1000rem;}
+
+    .content-text, .content-musk_pic
+    {height: 100vh;}
+
+}

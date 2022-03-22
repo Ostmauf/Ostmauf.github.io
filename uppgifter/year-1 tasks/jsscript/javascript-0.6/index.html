@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript övning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+<div class="site">
+    <h1 id="rubrik">Hello world</h1>
+    <div id="disappear-when-button-pressed">
+        
+        <div>
+            <h3>För färgen på Text</h3>
+            <input type="text" id="text-color-input">
+        </div>
+    
+        <div>
+            <h3>För färgen på bakrunden</h3>
+            <input type="text" id="user-input">
+        </div>
+
+        <div>
+            <h3>För storleken på texten</h3>
+            <input type="text" id="text-size-input">
+        </div>
+        
+    </div>
+
+    <div class="button-place"> <button id="button-1">Skicka</button> </div>
+</div>
+
+<script>
+
+//Variabler
+let userInput = document.getElementById("user-input");
+let textSizeInput = document.getElementById("text-size-input")
+let textColorInput = document.getElementById("text-color-input");
+
+let button1 = document.getElementById("button-1");
+let disappearWhenButtonPressed = document.getElementById("disappear-when-button-pressed");
+let rubrik = document.getElementById("rubrik");
+let body = document.getElementById("body");
+
+//Annat
+button1.addEventListener("click", backgroundColorManager);
+
+//Funktioner
+function backgroundColorManager() {
+    disappearWhenButtonPressed.style.display = "none";
+    body.style.backgroundColor = userInput.value;
+    rubrik.style.color = textColorInput.value;
+    rubrik.style.fontSize = textSizeInput.value + "px";
+}
+
+</script>
+</body>
+</html>

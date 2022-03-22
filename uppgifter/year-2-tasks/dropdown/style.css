@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+.header{
+    height: 20vh;
+    background-color: aquamarine;
+}
+.header ul {
+    display: flex;
+    padding: 2rem 0rem;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+.header ul li {
+    padding: 0 2rem;
+}
+.prod-dropdown {
+    display: none;
+    position: absolute;
+}
+.prod-drop {
+    position: relative;
+}
+
+.prod-drop:hover .prod-dropdown {
+    display: block;
+}

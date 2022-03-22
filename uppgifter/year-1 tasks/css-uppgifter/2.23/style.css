@@ -1,0 +1,54 @@
+.parent
+{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+width: 100vw;
+
+}
+
+.header
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+height: 400px;
+width: 100vw;
+background-image: url(choklad.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100vw;
+font-size: 40px;
+
+}
+
+.content
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 200px;
+width: 950px;
+
+}
+
+h3
+{
+
+font-size: 40px;
+margin: 100px 0px 0px 0px;
+
+}
+
+p
+{
+
+font-size: 20px;
+margin-bottom: 0;
+
+}

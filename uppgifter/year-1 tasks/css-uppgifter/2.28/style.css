@@ -1,0 +1,47 @@
+.parent
+{
+
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.desktop, .tablet, .mobile
+{
+    
+display: none;
+
+}
+
+@media screen and (min-width: 900px)
+{
+    .desktop
+    {
+
+    display: block;
+
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 501px)
+{
+    .tablet
+    {
+
+    display: block;
+
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .mobile
+    {
+    
+    display: block;
+
+    }
+}

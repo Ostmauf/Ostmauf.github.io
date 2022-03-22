@@ -1,0 +1,86 @@
+h1
+{
+
+font-size: 50px;
+color: red;
+height: 100px;
+margin-left: 100px;
+
+}
+
+p, h3
+{
+
+margin: 0px 10px 0px 0px;
+min-width: 25rem;
+width: 25rem;
+
+}
+
+p
+{font-size: 20px;}
+
+h3
+{
+    
+font-size: 50px;
+margin-top: 20px;
+
+}
+
+a
+{
+
+color: white;
+font-size: 30px;
+text-decoration: none;
+
+min-height: 30px;
+
+}
+
+.a-hem
+{
+
+border-bottom: 10px solid black;
+padding: 0px 4px 0px 4px;
+min-width: 50px;
+border-width: 0.5rem;
+
+}
+
+#footer-text
+{
+
+font-size: smaller;
+color: grey;
+
+}
+
+@media only screen and (max-height: 760px)
+{
+
+p 
+{font-size: 1rem;}
+
+}
+
+@media only screen and (max-width: 37rem)
+{
+
+    p, h3
+    {
+
+    color: brown;
+    margin-left: 0.5rem;
+    
+    }
+
+    a 
+    {font-size: 1.4rem;}
+
+    .a-hem
+    {min-width: 2rem;}
+
+}
+
